@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="test-demo" target="1.8" />
-      <module name="test-designPatterns" target="1.8" />
-      <module name="test-mybatis" target="1.8" />
-      <module name="test-spring" target="1.8" />
+      <module name="test-demo" target="1.5" />
+      <module name="test-designPatterns" target="1.5" />
+      <module name="test-mybatis" target="1.5" />
+      <module name="test-spring" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

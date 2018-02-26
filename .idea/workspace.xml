@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e10e1afa-0425-4da6-97de-41012feac08a" name="Default" comment="" />
+    <list default="true" id="e10e1afa-0425-4da6-97de-41012feac08a" name="Default" comment="添加原型模式">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/AbstractPrototype.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/PrototypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportClient.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFactory.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFile.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFinancialHtmlFile.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFinancialHtmlFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFinancialPdfFile.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportFinancialPdfFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportStandardHtmlFile.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportStandardHtmlFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportStandardPdfFile.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportStandardPdfFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportType.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/ExportType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/HtmlExportFactory.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/HtmlExportFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/PdfExportFactory.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/factoryMath/PdfExportFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Apple.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Apple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Consumer.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Fruit.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Fruit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Grape.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Grape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Planter.class" afterPath="$PROJECT_DIR$/test-designPatterns/target/classes/com/simpleFactory/Planter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md" afterPath="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-designPatterns/test-designPatterns.iml" afterPath="$PROJECT_DIR$/test-designPatterns/test-designPatterns.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-mybatis/test-mybatis.iml" afterPath="$PROJECT_DIR$/test-mybatis/test-mybatis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-spring/test-spring.iml" afterPath="$PROJECT_DIR$/test-spring/test-spring.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/test-spring/target/" />
@@ -15,7 +41,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractPrototype.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/AbstractPrototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrototypeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/PrototypeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +98,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -62,7 +138,11 @@
         <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/singletonModel/LazySinggleton.java" />
         <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/singletonModel/LazySingleton.java" />
         <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/singletonModel/DoubleCheckLockSingleton.java" />
+        <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/Prototype.java" />
+        <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/AbstractPrototype.java" />
         <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md" />
+        <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/PrototypeImpl.java" />
+        <option value="$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/Client.java" />
       </list>
     </option>
   </component>
@@ -108,7 +188,6 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,10 +195,56 @@
               <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test-designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="prototypeModel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +278,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExportClient">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.prototypeModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.prototypeModel.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="test-designPatterns" />
+      <envs />
+    </configuration>
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -286,16 +430,18 @@
       <module name="test-mybatis" />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.test" />
       <item index="1" class="java.lang.String" itemvalue="Application.Consumer" />
       <item index="2" class="java.lang.String" itemvalue="Application.ExportClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ExportClient" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Consumer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ExportClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Consumer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -314,30 +460,41 @@
       <workItem from="1518167235890" duration="591000" />
       <workItem from="1519260621968" duration="262000" />
       <workItem from="1519370775646" duration="14250000" />
+      <workItem from="1519459504008" duration="2222000" />
+      <workItem from="1519624163190" duration="2740000" />
     </task>
+    <task id="LOCAL-00001" summary="添加原型模式">
+      <created>1519466379963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519466379963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36629000" />
+    <option name="totallyTimeSpent" value="41591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19433199" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19324325" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5067568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26289397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27005732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -359,18 +516,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加原型模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加原型模式" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test-mybatis/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -378,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -412,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -441,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +667,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="286">
             <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -519,10 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#145#146#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,10 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#176#177#0" expanded="false" />
-            <element signature="e#224#225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,10 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#177#178#0" expanded="false" />
-            <element signature="e#225#226#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,10 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#177#178#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,10 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#227#228#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +768,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="242">
             <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -652,7 +778,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="440">
             <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -662,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding>
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,9 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="docComment;class#DoubleCheckLockSingleton#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,20 +801,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="5" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#LazySingleton#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-designPatterns/test-designPatterns.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/AbstractPrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/PrototypeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-designPatterns/src/main/java/com/prototypeModel/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -751,11 +902,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test-spring</last-edited>
+          <last-edited>test-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32258064" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
